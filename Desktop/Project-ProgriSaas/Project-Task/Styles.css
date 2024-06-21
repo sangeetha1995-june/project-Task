@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.root{
+    --primary: #d8f6ff;
+}
+
+body{
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+
+}
+
+.nav-item{
+    display: inline-block;
+    margin-right: 4px;
+    margin-left: 0;
+}
+.navbar a{
+    display: block;
+}
+
+.nav-link{
+   display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    color: rgb(246, 11, 11);
+
+   
+}
+
+nav ul a{
+    display: block;
+}
+.hero-desc{
+    font-weight: 600;
+}
+
+
+
+
+.btn{
+    padding: 6px 10px;
+    border-radius: 25px;
+}
