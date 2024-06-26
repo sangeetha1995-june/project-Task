@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-   
+    font-family: "DM Sans", sans-serif;
 }
 
 
@@ -10,18 +10,18 @@
 }
 
 body{
-    font-family: "Poppins";
     scroll-behavior: smooth;
-
 }
 
 .nav-item{
     display: inline-block;
-    margin-right: 4px;
-    margin-left: 0;
-}
-.navbar a{
+    margin-right: 2px;
+}   
+.navbar a,nav ul a{
     display: block;
+}
+.dropdown-item,.nav-item,.title-card{
+ font-size: small;
 }
 
 .nav-link{
@@ -31,24 +31,227 @@ body{
 }
 .nav-link:hover{
     color: rgb(246, 11, 11);
-
-   
 }
 
-nav ul a{
-    display: block;
-}
-.hero-desc{
+
+.hero-desc,.card-title{
     font-weight: 600;
 }
-.card-title{
-    font-weight: 600;
-}
-
-
-
 
 .btn{
     padding: 6px 10px;
     border-radius: 25px;
+}
+.start-btn{
+    font-size: small;
+}
+.title-card-desc,.card-content h5,.about-desc-heading{
+    font-weight: 500;
+}
+.span li{
+    width: 100%;
+}
+.card-desc{
+    font-size: small;
+    color: rgb(141, 138, 138);
+}
+.card{
+    border-radius: 12px;
+    margin-right: 8px;
+}
+.card-content{
+    margin-top: 12px;
+    padding-top: 4px;
+}
+.learnMore-btn,.about-desc,.about-btn,.chooseUs-title{
+    font-size: small;
+}
+
+.list-style{
+    color: #ff6b52;
+    font-size: large;
+    justify-content: center;
+}
+
+
+.about-desc-para{
+    color: rgb(141, 138, 138);
+    font-size: 16px;
+    line-height: 2;
+}
+
+.chooseUs-heading,.chooseUs-desc{
+    font-weight: 500;
+}
+
+.chooseUs-desc-para{
+    color: rgb(141, 138, 138);
+    font-size: 14px;
+   
+}
+.badge-pill{
+    font-size: medium;
+}
+.offersection-heading{
+    font-weight: 500;
+    font-size:32px ;
+}
+.offersection-title,.featuredProject-title{
+    font-size: small;
+}
+.offer-heading{
+    font-size: 24px;
+    font-weight: 500;
+}
+.listStyleTick li{
+  list-style-type: '\2713';
+  color: green;
+}
+.listStyleTickOptions{
+    font-size: 14px;
+    color: rgb(141, 138, 138);
+    margin-left: 28px;
+}
+.offerBox-1{
+    border: 2px,solid,rgb(225, 221, 221);
+    width: 30%;
+    height: 30%;
+    padding: 32px;
+    margin: 4px;
+    border-radius: 16px;
+}
+
+.listStyleTickRed li{
+    list-style-type: '\2713';
+    color:  #ff6b52;
+    line-height: 1.5;
+}
+
+.featuredProject-desc{
+    color: rgb(141, 138, 138);
+}
+.offerBtn{
+    font-size: small;
+    width: 42%;
+}
+.result-heading,.workTogether-heading,.whatsNew-heading,.workTogether-heading{
+   font-weight: 500;
+   
+}
+
+.result-para-1,.workTogether-para,.result-para{
+    font-size: small;
+    line-height: 1.5;
+}
+
+.ot-progress-line__inner{
+    height: 7px;
+    margin-bottom: 20px;
+    display:flex;
+    align-items: center;
+}
+
+.ppercent{
+    font-size: 30px;
+}
+
+.workTogether-para-1{
+    font-size: small;
+    color: rgb(141, 138, 138);
+}
+.footer{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.contact-section{
+    color: #B2B6BE;
+}
+
+.brand-title{
+    font-weight: 700;
+}
+.brand-hero-desc{
+    line-height: 2.3;
+    font-size: 14px;
+}
+.listStyleBrandOptions,.listStyleBrandPara{
+    color:rgb(82, 77, 77) ;
+}
+.listStyleBrandPara{
+    font-size: 16px;
+    line-height: 2.3;
+    
+}
+.listStyleBrandOptions{
+    margin-left: 28px;
+    line-height: 2.3;
+}
+.listStyleBrand li{
+    list-style-type: '\2713';
+    color:  #ff6b52;
+    
+}
+.listStyleBrandHeading{
+    font-weight: 500;
+    font-size:28px ;
+}
+
+.sectionHeading li{
+    margin-top: 32px;
+}
+.FAQ-section-heading{
+    font-weight: 500;
+    text-align: start;
+    font-size: 48px;
+}
+.FAQ-section-para{
+    font-size:16px ;
+    line-height: 2.3;
+}
+.item-section h5{
+    color: dimgray;
+}
+.item-section{
+    line-height: 2.8;
+}
+
+.FAQ-heading,.form-section-heading{
+    font-weight: 500;
+}
+.FAQ-card{
+    font-size: 16px;
+    line-height: 2.8;
+}
+.findUs-section,.form-section-title span,.form-section-para{
+    font-size: 16px;
+    line-height: 2.8;
+}
+
+.tele{
+    font-size:24px ;
+}
+.chooseUs-heading{
+    font-size: 46px;
+    font-weight: 500;
+}
+
+#footer-section{
+    color:dimgray;
+}
+.contact-section{
+    color:#B2B6BE;
+    line-height: 2.8;
+}
+.check-section {
+    font-size: 12px;
+    color:#B2B6BE;
+}
+.email-section{
+    background-color: #284665;
+    border: none;
+}
+.mb-0{
+    font-size: medium;
 }
